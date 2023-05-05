@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Consulta Cep Acesso -  Cliente</title>
+    <link rel="stylesheet" href="./css/cliente.css">
+
+</head>
+<header>
+    <h1><span class="blue">&lt;</span> Grupo 01 <span class="blue">&gt;</span> <span></pan></h1>
+</header>
+<body>
+    
+   <div class="Container">
+    <section class="section2">
+        <div class="formulario">
+            <div id="titulo">
+                <label for=""><h2> DIGITE O CEP PARA CONSULTAR: </h2></label>
+                <p>(Digitar somente os números do cep)</p>
+            </div>
+            </div>
+        </div>
+            <div class="Input">
+                <input type="number" id="cep" placeholder="Somente 8 números">
+                <button onclick="consultarCep()">Consultar</button>
+                <button onclick="limparDados()">limpar Dados</button>
+            </div>
+
+
+    </section>
+
+    <section class="section3">
+        <div id="resultado"></div>
+
+    </section>
+
+
+    <footer>
+        <button id="btn1" onclick="sairLogin()">Efetuar LogOff</button>
+    </footer>
+   
+<script src="./js/cliente.js"></script>
+</body>
+</html>
